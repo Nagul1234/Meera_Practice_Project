@@ -83,8 +83,7 @@ public static WebDriver driver;
         	catch(NullPointerException np) {
         		password="";
         	}	
-        	
-		un.sendKeys(username);
+    	un.sendKeys(username);
 		pw.sendKeys(password);
 		driver.findElement(By.xpath("//*[text()=' Sign In ']")).click();
 		Thread.sleep(5000);
