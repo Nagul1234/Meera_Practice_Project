@@ -34,6 +34,7 @@ public static WebDriver driver;
 		
 		System.setProperty("webdriver.chrome.driver","D:\\Meera\\Browserdrivers\\chromedriver.exe");
 		driver=new ChromeDriver();
+		
 		driver.manage().window().maximize();
 		Robot rt=new Robot();
 		rt.keyPress(KeyEvent.VK_CONTROL);
