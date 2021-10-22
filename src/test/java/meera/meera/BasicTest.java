@@ -94,7 +94,7 @@ public static WebDriver driver;
 		
 		test.log(Status.PASS, "Invalid data test passed");
 		}
-        else if(Criteria.equals("Valid")&&driver.findElement(By.xpath("//*[@id='time']")).isDisplayed()) {
+        else if(Criteria.equals("Valid")&&driver.findElement(By.xpath("//*[@id='time']")).isDisplayed())  {
         	test.log(Status.PASS, "Valid data test passed");
         }
         else 
