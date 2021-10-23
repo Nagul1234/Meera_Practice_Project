@@ -2,25 +2,43 @@
 <testng-results skipped="0" failed="3" total="4" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[pass]]>
+      <![CDATA[warren]]>
     </line>
     <line>
-      <![CDATA[<br><img src='D:\23-10-21-05-14-45.png' height='300' width='300' /><br>]]>
+      <![CDATA[empty]]>
     </line>
     <line>
-      <![CDATA[pass]]>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[warrenempty]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='D:\23-10-21-07-10-44.png' height='300' width='300' /><br>]]>
+    </line>
+    <line>
+      <![CDATA[james]]>
+    </line>
+    <line>
+      <![CDATA[jamesempty]]>
+    </line>
+    <line>
+      <![CDATA[warren]]>
+    </line>
+    <line>
+      <![CDATA[warrenempty]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="60698" started-at="2021-10-23T11:44:18Z" finished-at="2021-10-23T11:45:18Z">
+  <suite name="Suite" duration-ms="56377" started-at="2021-10-23T13:40:16Z" finished-at="2021-10-23T13:41:13Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="60698" started-at="2021-10-23T11:44:18Z" finished-at="2021-10-23T11:45:18Z">
+    <test name="Test" duration-ms="56377" started-at="2021-10-23T13:40:16Z" finished-at="2021-10-23T13:41:13Z">
       <class name="Tests.Loginpage_Validations">
-        <test-method status="FAIL" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.Loginpage_Validations@39c0f4a]" name="login" duration-ms="15270" started-at="2021-10-23T17:14:19Z" data-provider="Logindata" finished-at="2021-10-23T17:14:34Z">
+        <test-method status="FAIL" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.Loginpage_Validations@1d5d5621]" name="login" duration-ms="10926" started-at="2021-10-23T19:10:18Z" data-provider="Logindata" finished-at="2021-10-23T19:10:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Invalid]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="1">
@@ -39,9 +57,9 @@
               <![CDATA[java.lang.NullPointerException
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy8.isDisplayed(Unknown Source)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
 	at Pages.Loginpage.signin(Loginpage.java:21)
-	at Tests.Loginpage_Validations.login(Loginpage_Validations.java:58)
+	at Tests.Loginpage_Validations.login(Loginpage_Validations.java:60)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -70,13 +88,19 @@
             </full-stacktrace>
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
+            <line>
+              <![CDATA[warren]]>
+            </line>
+            <line>
+              <![CDATA[empty]]>
+            </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.Loginpage_Validations@39c0f4a]" name="login" duration-ms="15887" started-at="2021-10-23T17:14:34Z" data-provider="Logindata" finished-at="2021-10-23T17:14:50Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.Loginpage_Validations@1d5d5621]" name="login" duration-ms="20491" started-at="2021-10-23T19:10:29Z" data-provider="Logindata" finished-at="2021-10-23T19:10:50Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Invalid]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="1">
@@ -92,14 +116,17 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[pass]]>
+              <![CDATA[]]>
             </line>
             <line>
-              <![CDATA[<br><img src='D:\23-10-21-05-14-45.png' height='300' width='300' /><br>]]>
+              <![CDATA[warrenempty]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='D:\23-10-21-07-10-44.png' height='300' width='300' /><br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="FAIL" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.Loginpage_Validations@39c0f4a]" name="login" duration-ms="9297" started-at="2021-10-23T17:14:50Z" data-provider="Logindata" finished-at="2021-10-23T17:15:00Z">
+        <test-method status="FAIL" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.Loginpage_Validations@1d5d5621]" name="login" duration-ms="8280" started-at="2021-10-23T19:10:50Z" data-provider="Logindata" finished-at="2021-10-23T19:10:58Z">
           <params>
             <param index="0">
               <value>
@@ -123,8 +150,8 @@
 Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
 System info: host: 'BIT-CHITTA-DAS', ip: '10.10.10.22', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NAGULM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54682}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1692a5b88a9ac148b5685cbb7ebe0690
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NAGULM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64145}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8681fecb217fd59197d9e400d7259254
 *** Element info: {Using=name, value=sign_in_username_email}]]>
             </message>
             <full-stacktrace>
@@ -132,8 +159,8 @@ Session ID: 1692a5b88a9ac148b5685cbb7ebe0690
 Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
 System info: host: 'BIT-CHITTA-DAS', ip: '10.10.10.22', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NAGULM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54682}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1692a5b88a9ac148b5685cbb7ebe0690
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NAGULM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64145}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8681fecb217fd59197d9e400d7259254
 *** Element info: {Using=name, value=sign_in_username_email}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -151,9 +178,9 @@ Session ID: 1692a5b88a9ac148b5685cbb7ebe0690
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy8.isDisplayed(Unknown Source)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
 	at Pages.Loginpage.signin(Loginpage.java:21)
-	at Tests.Loginpage_Validations.login(Loginpage_Validations.java:58)
+	at Tests.Loginpage_Validations.login(Loginpage_Validations.java:60)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -182,9 +209,15 @@ Session ID: 1692a5b88a9ac148b5685cbb7ebe0690
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
+            <line>
+              <![CDATA[james]]>
+            </line>
+            <line>
+              <![CDATA[jamesempty]]>
+            </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="FAIL" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.Loginpage_Validations@39c0f4a]" name="login" duration-ms="18856" started-at="2021-10-23T17:15:00Z" data-provider="Logindata" finished-at="2021-10-23T17:15:18Z">
+        <test-method status="FAIL" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.Loginpage_Validations@1d5d5621]" name="login" duration-ms="14638" started-at="2021-10-23T19:10:58Z" data-provider="Logindata" finished-at="2021-10-23T19:11:13Z">
           <params>
             <param index="0">
               <value>
@@ -210,8 +243,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
 System info: host: 'BIT-CHITTA-DAS', ip: '10.10.10.22', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NAGULM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49311}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a49e31078a45d5f1e782e0df9d5a046b
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NAGULM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49287}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fe4346b32c589cd985e579c3a3002668
 *** Element info: {Using=xpath, value=//*[@id='time']}]]>
             </message>
             <full-stacktrace>
@@ -221,8 +254,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
 System info: host: 'BIT-CHITTA-DAS', ip: '10.10.10.22', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NAGULM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49311}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a49e31078a45d5f1e782e0df9d5a046b
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NAGULM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49287}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fe4346b32c589cd985e579c3a3002668
 *** Element info: {Using=xpath, value=//*[@id='time']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -241,7 +274,7 @@ Session ID: a49e31078a45d5f1e782e0df9d5a046b
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy8.isDisplayed(Unknown Source)
-	at Tests.Loginpage_Validations.login(Loginpage_Validations.java:67)
+	at Tests.Loginpage_Validations.login(Loginpage_Validations.java:69)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -271,7 +304,10 @@ Session ID: a49e31078a45d5f1e782e0df9d5a046b
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
             <line>
-              <![CDATA[pass]]>
+              <![CDATA[warren]]>
+            </line>
+            <line>
+              <![CDATA[warrenempty]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->

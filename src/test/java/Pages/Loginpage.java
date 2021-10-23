@@ -17,9 +17,10 @@ public Loginpage(WebDriver driver) {
 	PageFactory.initElements(driver, this);
 }
 
-public void signin(String usename,String password) {
+public void signin(String usename,String password) throws InterruptedException {
 	UN.sendKeys(usename);
 	PW.sendKeys(password);
 	Signin.click();
+	Thread.sleep(5000);
 }
 }

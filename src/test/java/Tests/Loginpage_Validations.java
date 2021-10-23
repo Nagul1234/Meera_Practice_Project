@@ -55,12 +55,14 @@ public class Loginpage_Validations {
 	  Homepage Ho=new Homepage(Basepage.driver);
 	  CustomizationofTestngreport cs=new CustomizationofTestngreport();
 	 bp.Browserlaunch("Chrome", "http://172.168.10.239/qa/srx/");
+	 Reporter.log(username);
+	 Reporter.log(password+"empty");
 	 Lg.signin(username,password);
 		if((Lg.PW.equals("")||Lg.UN.equals(""))&&Lg.Blankusertext.isDisplayed()) {
 			Reporter.log("Blank  Un or pw test passed");
 			cs.onTestFailure();
 		            }
-		else if(criteria.equals("Invalid")&&(Lg.UN.equals(username)&&Lg.PW.equals(password))&&Lg.Invalidusertext.isDisplayed()) {
+		else if(criteria.equals("Invalid")&&Lg.Invalidusertext.isDisplayed()) {
 		Reporter.log("Invalid user data test passed");
 		cs.onTestFailure();
 		}

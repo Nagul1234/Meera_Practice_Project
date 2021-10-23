@@ -101,7 +101,7 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.Loginpage_Validations" hash-for-method="login(Invalid, warren, )">login(Invalid, warren, )</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.Loginpage_Validations" hash-for-method="login(Invalid, james, james)">login(Invalid, james, james)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -111,7 +111,7 @@
                       <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.Loginpage_Validations" hash-for-method="login(Invalid, james, james)">login(Invalid, james, james)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.Loginpage_Validations" hash-for-method="login(, warren, )">login(, warren, )</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -125,7 +125,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.Loginpage_Validations" hash-for-method="login(Invalid, , warren)">login(Invalid, , warren)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.Loginpage_Validations" hash-for-method="login(, , warren)">login(, , warren)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -148,17 +148,33 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="login(Invalid, warren, )">
-                  </a> <!-- login(Invalid, warren, ) -->
+                  <a name="login(Invalid, james, james)">
+                  </a> <!-- login(Invalid, james, james) -->
                   <span class="method-name">login</span>
-                  <span class="parameters">(Invalid, warren, )</span>
-                  <div class="stack-trace">java.lang.NullPointerException
+                  <span class="parameters">(Invalid, james, james)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: &apos;3.10.0&apos;, revision: &apos;176b4a9&apos;, time: &apos;2018-03-02T19:03:16.397Z&apos;
+System info: host: &apos;BIT-CHITTA-DAS&apos;, ip: &apos;10.10.10.22&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NAGULM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64145}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8681fecb217fd59197d9e400d7259254
+*** Element info: {Using=name, value=sign_in_username_email}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy8.isDisplayed(Unknown Source)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
 	at Pages.Loginpage.signin(Loginpage.java:21)
-	at Tests.Loginpage_Validations.login(Loginpage_Validations.java:58)
-... Removed 24 stack frames
+	at Tests.Loginpage_Validations.login(Loginpage_Validations.java:60)
+... Removed 28 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -174,8 +190,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: &apos;3.10.0&apos;, revision: &apos;176b4a9&apos;, time: &apos;2018-03-02T19:03:16.397Z&apos;
 System info: host: &apos;BIT-CHITTA-DAS&apos;, ip: &apos;10.10.10.22&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_112&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NAGULM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49311}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a49e31078a45d5f1e782e0df9d5a046b
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NAGULM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49287}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fe4346b32c589cd985e579c3a3002668
 *** Element info: {Using=xpath, value=//*[@id=&apos;time&apos;]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
@@ -190,40 +206,24 @@ Session ID: a49e31078a45d5f1e782e0df9d5a046b
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy8.isDisplayed(Unknown Source)
-	at Tests.Loginpage_Validations.login(Loginpage_Validations.java:67)
+	at Tests.Loginpage_Validations.login(Loginpage_Validations.java:69)
 ... Removed 28 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="login(Invalid, james, james)">
-                  </a> <!-- login(Invalid, james, james) -->
+                  <a name="login(, warren, )">
+                  </a> <!-- login(, warren, ) -->
                   <span class="method-name">login</span>
-                  <span class="parameters">(Invalid, james, james)</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: &apos;3.10.0&apos;, revision: &apos;176b4a9&apos;, time: &apos;2018-03-02T19:03:16.397Z&apos;
-System info: host: &apos;BIT-CHITTA-DAS&apos;, ip: &apos;10.10.10.22&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_112&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NAGULM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54682}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1692a5b88a9ac148b5685cbb7ebe0690
-*** Element info: {Using=name, value=sign_in_username_email}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:449)
-	at org.openqa.selenium.By$ByName.findElement(By.java:303)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+                  <span class="parameters">(, warren, )</span>
+                  <div class="stack-trace">java.lang.NullPointerException
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy8.isDisplayed(Unknown Source)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
 	at Pages.Loginpage.signin(Loginpage.java:21)
-	at Tests.Loginpage_Validations.login(Loginpage_Validations.java:58)
-... Removed 28 stack frames
+	at Tests.Loginpage_Validations.login(Loginpage_Validations.java:60)
+... Removed 24 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -237,10 +237,10 @@ Session ID: 1692a5b88a9ac148b5685cbb7ebe0690
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="login(Invalid, , warren)">
-                  </a> <!-- login(Invalid, , warren) -->
+                  <a name="login(, , warren)">
+                  </a> <!-- login(, , warren) -->
                   <span class="method-name">login</span>
-                  <span class="parameters">(Invalid, , warren)</span>
+                  <span class="parameters">(, , warren)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -301,24 +301,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'login')
 data.setCell(0, 2, 'Tests.Loginpage_Validations')
-data.setCell(0, 3, 18856);
+data.setCell(0, 3, 20491);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'login')
 data.setCell(1, 2, 'Tests.Loginpage_Validations')
-data.setCell(1, 3, 15887);
+data.setCell(1, 3, 14638);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'login')
 data.setCell(2, 2, 'Tests.Loginpage_Validations')
-data.setCell(2, 3, 15270);
+data.setCell(2, 3, 10926);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'login')
 data.setCell(3, 2, 'Tests.Loginpage_Validations')
-data.setCell(3, 3, 9297);
+data.setCell(3, 3, 8280);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 59 seconds</span>
+              <span class="suite-total-time">Total running time: 54 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -330,16 +330,32 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">login(Invalid, , warren)</span>
+              <span class="reporter-method-name">login(, , warren)</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">pass</span>
-                <span class="reporter-method-output"><br><img src='D:\23-10-21-05-14-45.png' height='300' width='300' /><br></span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">warrenempty</span>
+                <span class="reporter-method-output"><br><img src='D:\23-10-21-07-10-44.png' height='300' width='300' /><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">login(Invalid, james, james)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">james</span>
+                <span class="reporter-method-output">jamesempty</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">login(Valid, warren, warren)</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">pass</span>
+                <span class="reporter-method-output">warren</span>
+                <span class="reporter-method-output">warrenempty</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">login(, warren, )</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">warren</span>
+                <span class="reporter-method-output">empty</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -361,24 +377,24 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">login(Invalid, warren, )</span>
+                <span class="method-name">login(, warren, )</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">login(Invalid, , warren)</span>
-                <span class="method-start">15310 ms</span>
+                <span class="method-name">login(, , warren)</span>
+                <span class="method-start">10954 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">login(Invalid, james, james)</span>
-                <span class="method-start">31201 ms</span>
+                <span class="method-start">31450 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">login(Valid, warren, warren)</span>
-                <span class="method-start">40511 ms</span>
+                <span class="method-start">39746 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
