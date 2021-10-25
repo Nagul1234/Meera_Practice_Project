@@ -3,7 +3,10 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="Tests.Loginpage_Validations"/>
+      <!-- <class name="Tests.Loginpage_Validations"/> -->
+      <class name=""Tests.TC001"/>
+      <class name=""Tests.TC002"/>
+      <class name=""Tests.TC003"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
