@@ -47,7 +47,7 @@ public class CustomizationofTestngreport implements ITestListener {
         File f1=new File(path);
         try {
 			FileHandler.copy(sc,f1);
-			Reporter.log("<br><img src='"+f1+"' height='300' width='300' /><br>");
+			Reporter.log("<br><img src='"+f1+"' height='400' width='600' /><br>");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
