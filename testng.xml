@@ -2,12 +2,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite"   parallel="false"  >
   <test name="Test">
-  <classes>
-      <!-- <class name="Tests.TC004">
+  <packages>
+  <package name=" TC.*"  />
+  </packages>
+  <!-- <classes>
+      <class name="Tests.TC004">
       <methods>
       <include  name="TC004_1"/>
       </methods>
-      </class> -->
+      </class>
       <class name="Tests.TC005">
       <methods>
       <include name="  TC005_1" />
@@ -15,6 +18,6 @@
       <exclude name="  TC005_3"  />
       </methods>
       </class>
-    </classes>
+    </classes> -->
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -1,43 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="0" passed="0">
   <reporter-output>
-    <line>
-      <![CDATA[TC005_1]]>
-    </line>
-    <line>
-      <![CDATA[TC005_2]]>
-    </line>
-    <line>
-      <![CDATA[TC005_3]]>
-    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="18915" started-at="2021-10-26T15:56:34Z" finished-at="2021-10-26T15:56:53Z">
+  <suite name="Suite" duration-ms="20" started-at="2021-10-26T16:22:37Z" finished-at="2021-10-26T16:22:37Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="18915" started-at="2021-10-26T15:56:34Z" finished-at="2021-10-26T15:56:53Z">
-      <class name="Tests.TC005">
-        <test-method status="PASS" signature="TC005_1()[pri:0, instance:Tests.TC005@42e26948]" name="TC005_1" duration-ms="18825" started-at="2021-10-26T21:26:34Z" finished-at="2021-10-26T21:26:53Z">
-          <reporter-output>
-            <line>
-              <![CDATA[TC005_1]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- TC005_1 -->
-        <test-method status="PASS" signature="TC005_2()[pri:0, instance:Tests.TC005@42e26948]" name="TC005_2" duration-ms="15" started-at="2021-10-26T21:26:53Z" finished-at="2021-10-26T21:26:53Z">
-          <reporter-output>
-            <line>
-              <![CDATA[TC005_2]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- TC005_2 -->
-        <test-method status="PASS" signature="TC005_3()[pri:0, instance:Tests.TC005@42e26948]" name="TC005_3" duration-ms="3" started-at="2021-10-26T21:26:53Z" finished-at="2021-10-26T21:26:53Z">
-          <reporter-output>
-            <line>
-              <![CDATA[TC005_3]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- TC005_3 -->
-      </class> <!-- Tests.TC005 -->
+    <test name="Test" duration-ms="20" started-at="2021-10-26T16:22:37Z" finished-at="2021-10-26T16:22:37Z">
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
