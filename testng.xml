@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+<suite name="Suite"   parallel="false"  >
   <test name="Test">
-    <classes>
-      <!-- <class name="Tests.Loginpage_Validations"/> -->
-      <class name=""Tests.TC001"/>
-      <class name=""Tests.TC002"/>
-      <class name=""Tests.TC003"/>
+  <classes>
+      <!-- <class name="Tests.TC004">
+      <methods>
+      <include  name="TC004_1"/>
+      </methods>
+      </class> -->
+      <class name="Tests.TC005">
+      <methods>
+      <include name="  TC005_1" />
+      <exclude name="  TC005_2"  />
+      <exclude name="  TC005_3"  />
+      </methods>
+      </class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

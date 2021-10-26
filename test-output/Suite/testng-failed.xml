@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test(failed)">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test(failed)" parallel="tests">
     <classes>
-      <class name="Tests.Loginpage_Validations">
+      <class name="Tests.TC004">
         <methods>
-          <include name="login" invocation-numbers="0 1 2 3"/>
+          <include name="TC004_1"/>
         </methods>
-      </class> <!-- Tests.Loginpage_Validations -->
+      </class> <!-- Tests.TC004 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
